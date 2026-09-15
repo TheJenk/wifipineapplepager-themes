@@ -1,9 +1,9 @@
 {
   "template": {
-    "screen_name": "payloads_dashboard",
+    "screen_name": "recon_payloads_dashboard",
     "status_bar": "default",
     "windowed_canvas": true,
-    "cache_canvases": true,
+    "cache_canvases": false,
     "button_map": {
       "a": "select",
       "b": "back",

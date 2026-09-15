@@ -2,7 +2,7 @@
   "screen_name": "main_dashboard",
   "status_bar": "horror",
   "windowed_canvas": false,
-  "cache_canvases": true,
+  "cache_canvases": false,
   "button_map": {
     "a": "select",
     "b": "noop",
@@ -68,6 +68,16 @@
       "x": 0,
       "y": 0,
       "target": "pineap_menu"
+    },
+    {
+      "id": "pagerportal",
+      "layers": [],
+      "selected_layers": [
+        { "image_path": "assets/dashboard/pagerportal.png", "x": 0, "y": 0 }
+      ],
+      "x": 0,
+      "y": 0,
+      "target": "pager_portal_dashboard"	  
     },
     {
       "id": "SETTINGS",
