@@ -14,7 +14,8 @@
     },
     "background": {
       "layers": [
-        { "image_path": "assets/portal/bg_payloads_none.png", "x": 0, "y": 0 },
+        { "image_path": "assets/portal/base.png", "x": 0, "y": 0 },
+        { "image_path": "assets/portal/sidebar_hl.png", "x": 5, "y": 74 },
         {
           "variable_name": "$_INPUT_NAME",
           "x": 66,
@@ -40,9 +41,9 @@
           }
         },
         { "image_path": "assets/sys/scroll_track_150.png", "x": 460, "y": 40 },
-        { "image_path": "assets/sys/scroll_up_off.png", "x": 460, "y": 40 },
+        { "image_path": "assets/sys/scroll_up_off.png", "x": 462, "y": 44 },
         { "image_path": "assets/sys/scroll_thumbh_46.png", "x": 464, "y": 58 },
-        { "image_path": "assets/sys/scroll_down_off.png", "x": 460, "y": 174 }
+        { "image_path": "assets/sys/scroll_down_off.png", "x": 462, "y": 179 }
       ]
     },
     "pages": [

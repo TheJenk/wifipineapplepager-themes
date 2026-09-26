@@ -5,11 +5,11 @@
     "cache_canvases": true,
     "background": {
       "layers": [
-        { "image_path": "assets/optiondialog/option_dialog_bg_narrow.png", "x": 18, "y": 12 },
+        { "image_path": "assets/optiondialog/option_dialog_bg_narrow.png", "x": 47, "y": 12 },
         { "image_path": "assets/sys/scroll_track_112.png", "x": 400, "y": 54 },
-        { "image_path": "assets/sys/scroll_up_off.png", "x": 400, "y": 54 },
+        { "image_path": "assets/sys/scroll_up_off.png", "x": 402, "y": 58 },
         { "image_path": "assets/sys/scroll_thumbh_30.png", "x": 404, "y": 72 },
-        { "image_path": "assets/sys/scroll_down_off.png", "x": 400, "y": 150 }
+        { "image_path": "assets/sys/scroll_down_off.png", "x": 402, "y": 155 }
       ]
     },
     "pages": [

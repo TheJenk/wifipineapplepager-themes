@@ -7,9 +7,9 @@
       "layers": [
         { "image_path": "assets/optiondialog/option_dialog_bg_windowed_red.png", "x": 8, "y": 12 },
         { "image_path": "assets/sys/scroll_track_112.png", "x": 443, "y": 54 },
-        { "image_path": "assets/sys/scroll_up_off.png", "x": 443, "y": 54 },
+        { "image_path": "assets/sys/scroll_up_off.png", "x": 445, "y": 58 },
         { "image_path": "assets/sys/scroll_thumbh_30.png", "x": 447, "y": 72 },
-        { "image_path": "assets/sys/scroll_down_off.png", "x": 443, "y": 150 }
+        { "image_path": "assets/sys/scroll_down_off.png", "x": 445, "y": 155 }
       ]
     },
     "pages": [

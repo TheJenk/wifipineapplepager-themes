@@ -64,13 +64,13 @@
       "y": 5,
       "layers": {
         "15": [
-          { "image_path": "assets/statusbar/dashboard_brightness_2.png", "recolor_palette": "blue" }
+          { "image_path": "assets/statusbar/dashboard_brightness_2.png", "recolor_palette": "blue", "x": 4, "y": 0 }
         ],
         "25": [
-          { "image_path": "assets/statusbar/dashboard_brightness_3.png", "recolor_palette": "blue" }
+          { "image_path": "assets/statusbar/dashboard_brightness_3.png", "recolor_palette": "blue", "x": 4, "y": 0 }
         ],
         "50": [
-          { "image_path": "assets/statusbar/dashboard_brightness_5.png", "recolor_palette": "blue" }
+          { "image_path": "assets/statusbar/dashboard_brightness_5.png", "recolor_palette": "blue", "x": 4, "y": 0 }
         ],
         "75": [
           { "image_path": "assets/statusbar/dashboard_brightness_7.png", "recolor_palette": "blue" }

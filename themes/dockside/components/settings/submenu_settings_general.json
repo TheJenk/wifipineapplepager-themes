@@ -13,7 +13,9 @@
   },
   "background": {
     "layers": [
-      { "image_path": "assets/sys/settings_general.png", "x": 0, "y": 0 },
+      { "image_path": "assets/sys/base.png", "x": 0, "y": 0 },
+      { "image_path": "assets/sys/sidebar_hl.png", "x": 5, "y": 59 },
+      { "image_path": "assets/sys/card_308x5x30.png", "x": 162, "y": 50 },
       { "text": "General", "text_size": "small", "text_color_palette": "blue", "x": 66, "y": 8 },
       { "image_path": "assets/sys/cat_general.png", "x": 10, "y": 62 },
       { "text": "General", "text_size": "small", "text_color_palette": "blue", "x": 34, "y": 65 },

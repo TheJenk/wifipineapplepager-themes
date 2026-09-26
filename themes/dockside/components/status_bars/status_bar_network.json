@@ -64,13 +64,13 @@
       "y": 5,
       "layers": {
         "15": [
-          { "image_path": "assets/statusbar/dashboard_brightness_2.png", "recolor_palette": "blue" }
+          { "image_path": "assets/statusbar/dashboard_brightness_2.png", "recolor_palette": "blue", "x": 4, "y": 0 }
         ],
         "25": [
-          { "image_path": "assets/statusbar/dashboard_brightness_3.png", "recolor_palette": "blue" }
+          { "image_path": "assets/statusbar/dashboard_brightness_3.png", "recolor_palette": "blue", "x": 4, "y": 0 }
         ],
         "50": [
-          { "image_path": "assets/statusbar/dashboard_brightness_5.png", "recolor_palette": "blue" }
+          { "image_path": "assets/statusbar/dashboard_brightness_5.png", "recolor_palette": "blue", "x": 4, "y": 0 }
         ],
         "75": [
           { "image_path": "assets/statusbar/dashboard_brightness_7.png", "recolor_palette": "blue" }
@@ -99,26 +99,26 @@
         "2": [
           { "image_path": "assets/statusbar/ghz_2.png" }
         ],
-        "25": [
-          { "image_path": "assets/statusbar/ghz_25.png" }
-        ],
-        "256": [
-          { "image_path": "assets/statusbar/ghz_256.png" }
-        ],
-        "26": [
-          { "image_path": "assets/statusbar/ghz_26.png" }
-        ],
-        "56": [
-          { "image_path": "assets/statusbar/ghz_56.png" }
-        ],
         "5": [
           { "image_path": "assets/statusbar/ghz_5.png" }
         ],
         "6": [
           { "image_path": "assets/statusbar/ghz_6.png" }
         ],
+        "25": [
+          { "image_path": "assets/statusbar/ghz_25.png" }
+        ],
+        "26": [
+          { "image_path": "assets/statusbar/ghz_26.png", "x": 0, "y": 1 }
+        ],
+        "56": [
+          { "image_path": "assets/statusbar/ghz_56.png" }
+        ],
+        "256": [
+          { "image_path": "assets/statusbar/ghz_256.png" }
+        ],
         "off": [
-          { "image_path": "assets/statusbar/ghz_off.png" }
+          { "image_path": "assets/statusbar/ghz_off.png", "x": 0, "y": 0 }
         ]
       }
     }

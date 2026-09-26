@@ -26,7 +26,7 @@
             {
               "x": 60,
               "y": 60,
-              "text": "This device complies with Part 15 of the FCC Rules. Operation is subject to the following two conditions: (1) this device may not cause harmful interference, and (2) this device must accept any interference received, including interference that may cause undesired operation. Warning (Part 15.21) Changes or modifications not expressly approved by the party responsible for compliance could void the user\u2019s authority to operate the equipment. RF Exposure (OET Bulletin 65) To comply with FCC RF exposure",
+              "text": "This device complies with Part 15 of the FCC Rules. Operation is subject to the following two conditions: (1) this device may not cause harmful interference, and (2) this device must accept any interference received, including interference that may cause undesired operation. Warning (Part 15.21) Changes or modifications not expressly approved by the party responsible for compliance could void the user’s authority to operate the equipment. RF Exposure (OET Bulletin 65) To comply with FCC RF exposure",
               "text_color_palette": "blue",
               "text_size": "small",
               "max_chars": 46,
@@ -41,9 +41,9 @@
               }
             },
             { "image_path": "assets/sys/scroll_track_178.png", "x": 438, "y": 30 },
-            { "image_path": "assets/sys/scroll_up_dim.png", "x": 438, "y": 30 },
+            { "image_path": "assets/sys/scroll_up_dim.png", "x": 440, "y": 34 },
             { "image_path": "assets/sys/scroll_thumbh_36.png", "x": 442, "y": 48 },
-            { "image_path": "assets/sys/scroll_down_off.png", "x": 438, "y": 192 }
+            { "image_path": "assets/sys/scroll_down_off.png", "x": 440, "y": 197 }
           ]
         }
       ]
@@ -72,9 +72,9 @@
               }
             },
             { "image_path": "assets/sys/scroll_track_178.png", "x": 438, "y": 30 },
-            { "image_path": "assets/sys/scroll_up_off.png", "x": 438, "y": 30 },
+            { "image_path": "assets/sys/scroll_up_off.png", "x": 440, "y": 34 },
             { "image_path": "assets/sys/scroll_thumbh_36.png", "x": 442, "y": 83 },
-            { "image_path": "assets/sys/scroll_down_off.png", "x": 438, "y": 192 }
+            { "image_path": "assets/sys/scroll_down_off.png", "x": 440, "y": 197 }
           ]
         }
       ]
@@ -103,9 +103,9 @@
               }
             },
             { "image_path": "assets/sys/scroll_track_178.png", "x": 438, "y": 30 },
-            { "image_path": "assets/sys/scroll_up_off.png", "x": 438, "y": 30 },
+            { "image_path": "assets/sys/scroll_up_off.png", "x": 440, "y": 34 },
             { "image_path": "assets/sys/scroll_thumbh_36.png", "x": 442, "y": 119 },
-            { "image_path": "assets/sys/scroll_down_off.png", "x": 438, "y": 192 }
+            { "image_path": "assets/sys/scroll_down_off.png", "x": 440, "y": 197 }
           ]
         }
       ]
@@ -134,9 +134,9 @@
               }
             },
             { "image_path": "assets/sys/scroll_track_178.png", "x": 438, "y": 30 },
-            { "image_path": "assets/sys/scroll_up_off.png", "x": 438, "y": 30 },
+            { "image_path": "assets/sys/scroll_up_off.png", "x": 440, "y": 34 },
             { "image_path": "assets/sys/scroll_thumbh_36.png", "x": 442, "y": 154 },
-            { "image_path": "assets/sys/scroll_down_dim.png", "x": 438, "y": 192 }
+            { "image_path": "assets/sys/scroll_down_dim.png", "x": 440, "y": 197 }
           ]
         }
       ]

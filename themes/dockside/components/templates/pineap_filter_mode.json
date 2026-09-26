@@ -12,10 +12,10 @@
         "end_y": 218
       }
     },
-    { "image_path": "assets/swap.png", "x": 72, "y": 2, "recolor_palette": "gray" }
+    { "image_path": "assets/swap.png", "x": 76, "y": 4, "recolor_palette": "gray" }
   ],
   "disabled": [
     { "text": "Deny", "text_size": "medium", "text_color_palette": "red" },
-    { "image_path": "assets/swap.png", "x": 72, "y": 2, "recolor_palette": "gray" }
+    { "image_path": "assets/swap.png", "x": 76, "y": 4, "recolor_palette": "gray" }
   ]
 }

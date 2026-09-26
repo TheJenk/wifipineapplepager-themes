@@ -4,7 +4,7 @@
   "screen_name": "critical_battery_alert",
   "background": {
     "layers": [
-      { "image_path": "assets/critical_battery_alert.png", "x": 0, "y": 0 }
+      { "image_path": "assets/critical_battery_alert.png", "x": 92, "y": 21 }
     ]
   },
   "menu_items": []
