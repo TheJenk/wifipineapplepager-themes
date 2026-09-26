@@ -191,31 +191,9 @@
             { "text": "GPS", "text_size": "small", "text_color_palette": "white", "x": 34, "y": 91 },
             { "image_path": "assets/sys/card_308x4x30.png", "x": 162, "y": 50 },
             { "text": "Lat:", "x": 176, "y": 60, "text_size": "small", "text_color_palette": "gray" },
-            {
-              "variable_name": "$_GPS_LAT",
-              "x": 210,
-              "y": 60,
-              "string_template": {
-                "text_size": "small",
-                "text_color_palette": "blue",
-                "max_chars": 12,
-                "wrap_text": false,
-                "max_lines": 1
-              }
-            },
+            { "text": "...", "x": 210, "y": 60, "text_size": "small", "text_color_palette": "blue" },
             { "text": "Lon:", "x": 322, "y": 60, "text_size": "small", "text_color_palette": "gray" },
-            {
-              "variable_name": "$_GPS_LON",
-              "x": 356,
-              "y": 60,
-              "string_template": {
-                "text_size": "small",
-                "text_color_palette": "blue",
-                "max_chars": 12,
-                "wrap_text": false,
-                "max_lines": 1
-              }
-            },
+            { "text": "...", "x": 356, "y": 60, "text_size": "small", "text_color_palette": "blue" },
             { "text": "Serial Device", "x": 176, "y": 90, "text_size": "small", "text_color_palette": "blue" },
             { "image_path": "assets/sys/chevron.png", "x": 454, "y": 91, "recolor_palette": "medium_gray" },
             { "text": "Baud Rate", "x": 176, "y": 120, "text_size": "small", "text_color_palette": "blue" },
@@ -289,70 +267,15 @@
             { "text": "About", "text_size": "small", "text_color_palette": "white", "x": 34, "y": 169 },
             { "image_path": "assets/sys/card_308x5x30.png", "x": 162, "y": 50 },
             { "text": "Uptime", "x": 176, "y": 60, "text_size": "small", "text_color_palette": "blue" },
-            {
-              "variable_name": "$_UPTIME",
-              "x": 322,
-              "y": 60,
-              "string_template": {
-                "text_size": "small",
-                "text_color_palette": "gray",
-                "max_chars": 17,
-                "wrap_text": false,
-                "max_lines": 1
-              }
-            },
+            { "text": "...", "x": 322, "y": 60, "text_size": "small", "text_color_palette": "gray" },
             { "text": "Battery", "x": 176, "y": 90, "text_size": "small", "text_color_palette": "blue" },
-            {
-              "variable_name": "$_BATTERY_INFO",
-              "x": 322,
-              "y": 90,
-              "string_template": {
-                "text_size": "small",
-                "text_color_palette": "gray",
-                "max_chars": 17,
-                "wrap_text": false,
-                "max_lines": 1
-              }
-            },
+            { "text": "...", "x": 322, "y": 90, "text_size": "small", "text_color_palette": "gray" },
             { "text": "Temperature", "x": 176, "y": 120, "text_size": "small", "text_color_palette": "blue" },
-            {
-              "variable_name": "$_TEMP",
-              "x": 322,
-              "y": 120,
-              "string_template": {
-                "text_size": "small",
-                "text_color_palette": "gray",
-                "max_chars": 17,
-                "wrap_text": false,
-                "max_lines": 1
-              }
-            },
+            { "text": "...", "x": 322, "y": 120, "text_size": "small", "text_color_palette": "gray" },
             { "text": "Free Disk Space", "x": 176, "y": 150, "text_size": "small", "text_color_palette": "blue" },
-            {
-              "variable_name": "$_STORAGE",
-              "x": 322,
-              "y": 150,
-              "string_template": {
-                "text_size": "small",
-                "text_color_palette": "gray",
-                "max_chars": 17,
-                "wrap_text": false,
-                "max_lines": 1
-              }
-            },
+            { "text": "...", "x": 322, "y": 150, "text_size": "small", "text_color_palette": "gray" },
             { "text": "WAN IP", "x": 176, "y": 180, "text_size": "small", "text_color_palette": "blue" },
-            {
-              "variable_name": "$_WLAN0CLI_IP",
-              "x": 322,
-              "y": 180,
-              "string_template": {
-                "text_size": "small",
-                "text_color_palette": "gray",
-                "max_chars": 17,
-                "wrap_text": false,
-                "max_lines": 1
-              }
-            }
+            { "text": "...", "x": 322, "y": 180, "text_size": "small", "text_color_palette": "gray" }
           ]
         }
       ]
