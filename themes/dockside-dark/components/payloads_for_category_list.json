@@ -5,7 +5,9 @@
     "cache_canvases": false,
     "background": {
       "layers": [
-        { "image_path": "assets/finder/user_2.png", "x": 0, "y": 0 },
+        { "image_path": "assets/finder/base.png", "x": 0, "y": 0 },
+        { "image_path": "assets/finder/sidebar_hl.png", "x": 5, "y": 48 },
+        { "image_path": "assets/finder/kind_divider.png", "x": 384, "y": 31 },
         {
           "variable_name": "$_INPUT_NAME",
           "x": 66,
@@ -53,9 +55,9 @@
           }
         },
         { "image_path": "assets/sys/scroll_track_112.png", "x": 462, "y": 48 },
-        { "image_path": "assets/sys/scroll_up_off.png", "x": 462, "y": 48 },
+        { "image_path": "assets/sys/scroll_up_off.png", "x": 464, "y": 52 },
         { "image_path": "assets/sys/scroll_thumbh_30.png", "x": 466, "y": 66 },
-        { "image_path": "assets/sys/scroll_down_off.png", "x": 462, "y": 144 }
+        { "image_path": "assets/sys/scroll_down_off.png", "x": 464, "y": 149 }
       ],
       "background_color": {
         "r": 30,
@@ -77,7 +79,7 @@
           {
             "id": "Slot0",
             "layers": [
-              { "image_path": "assets/flame.png", "x": 126, "y": 54, "recolor_palette": "accent" },
+              { "image_path": "assets/flame.png", "x": 127, "y": 55, "recolor_palette": "accent" },
               {
                 "variable_name": "$_LIST_ITEM",
                 "x": 152,
@@ -94,7 +96,7 @@
             ],
             "selected_layers": [
               { "image_path": "assets/ui/sel_344x26.png", "x": 114, "y": 49 },
-              { "image_path": "assets/flame.png", "x": 126, "y": 54, "recolor_palette": "white" },
+              { "image_path": "assets/flame.png", "x": 127, "y": 55, "recolor_palette": "white" },
               {
                 "variable_name": "$_LIST_ITEM",
                 "x": 152,
@@ -115,7 +117,7 @@
           {
             "id": "Slot1",
             "layers": [
-              { "image_path": "assets/flame.png", "x": 126, "y": 82, "recolor_palette": "accent" },
+              { "image_path": "assets/flame.png", "x": 127, "y": 83, "recolor_palette": "accent" },
               {
                 "variable_name": "$_LIST_ITEM",
                 "x": 152,
@@ -132,7 +134,7 @@
             ],
             "selected_layers": [
               { "image_path": "assets/ui/sel_344x26.png", "x": 114, "y": 77 },
-              { "image_path": "assets/flame.png", "x": 126, "y": 82, "recolor_palette": "white" },
+              { "image_path": "assets/flame.png", "x": 127, "y": 83, "recolor_palette": "white" },
               {
                 "variable_name": "$_LIST_ITEM",
                 "x": 152,
@@ -153,7 +155,7 @@
           {
             "id": "Slot2",
             "layers": [
-              { "image_path": "assets/flame.png", "x": 126, "y": 110, "recolor_palette": "accent" },
+              { "image_path": "assets/flame.png", "x": 127, "y": 111, "recolor_palette": "accent" },
               {
                 "variable_name": "$_LIST_ITEM",
                 "x": 152,
@@ -170,7 +172,7 @@
             ],
             "selected_layers": [
               { "image_path": "assets/ui/sel_344x26.png", "x": 114, "y": 105 },
-              { "image_path": "assets/flame.png", "x": 126, "y": 110, "recolor_palette": "white" },
+              { "image_path": "assets/flame.png", "x": 127, "y": 111, "recolor_palette": "white" },
               {
                 "variable_name": "$_LIST_ITEM",
                 "x": 152,
@@ -191,7 +193,7 @@
           {
             "id": "Slot3",
             "layers": [
-              { "image_path": "assets/flame.png", "x": 126, "y": 138, "recolor_palette": "accent" },
+              { "image_path": "assets/flame.png", "x": 127, "y": 139, "recolor_palette": "accent" },
               {
                 "variable_name": "$_LIST_ITEM",
                 "x": 152,
@@ -208,7 +210,7 @@
             ],
             "selected_layers": [
               { "image_path": "assets/ui/sel_344x26.png", "x": 114, "y": 133 },
-              { "image_path": "assets/flame.png", "x": 126, "y": 138, "recolor_palette": "white" },
+              { "image_path": "assets/flame.png", "x": 127, "y": 139, "recolor_palette": "white" },
               {
                 "variable_name": "$_LIST_ITEM",
                 "x": 152,

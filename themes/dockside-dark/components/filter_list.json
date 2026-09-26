@@ -20,9 +20,9 @@
           }
         },
         { "image_path": "assets/sys/scroll_track_140.png", "x": 443, "y": 54 },
-        { "image_path": "assets/sys/scroll_up_off.png", "x": 443, "y": 54 },
+        { "image_path": "assets/sys/scroll_up_off.png", "x": 445, "y": 58 },
         { "image_path": "assets/sys/scroll_thumbh_42.png", "x": 447, "y": 72 },
-        { "image_path": "assets/sys/scroll_down_off.png", "x": 443, "y": 178 }
+        { "image_path": "assets/sys/scroll_down_off.png", "x": 445, "y": 183 }
       ]
     },
     "button_map": {

@@ -13,7 +13,9 @@
   },
   "background": {
     "layers": [
-      { "image_path": "assets/sys/pineap_filters.png", "x": 0, "y": 0 },
+      { "image_path": "assets/sys/base.png", "x": 0, "y": 0 },
+      { "image_path": "assets/sys/sidebar_hl.png", "x": 5, "y": 163 },
+      { "image_path": "assets/sys/card_308x5x30.png", "x": 162, "y": 50 },
       { "text": "Filters", "text_size": "small", "text_color_palette": "blue", "x": 66, "y": 8 },
       { "image_path": "assets/sys/cat_pineap.png", "x": 10, "y": 62 },
       { "text": "PineAP", "text_size": "small", "text_color_palette": "blue", "x": 34, "y": 65 },
@@ -130,9 +132,9 @@
           "unselectable": true,
           "layers": [
             { "image_path": "assets/sys/scroll_track_150.png", "x": 452, "y": 52 },
-            { "image_path": "assets/sys/scroll_up_dim.png", "x": 452, "y": 52 },
+            { "image_path": "assets/sys/scroll_up_dim.png", "x": 454, "y": 56 },
             { "image_path": "assets/sys/scroll_thumbh_57.png", "x": 456, "y": 70 },
-            { "image_path": "assets/sys/scroll_down_off.png", "x": 452, "y": 186 }
+            { "image_path": "assets/sys/scroll_down_off.png", "x": 454, "y": 191 }
           ]
         }
       ]
@@ -237,9 +239,9 @@
           "unselectable": true,
           "layers": [
             { "image_path": "assets/sys/scroll_track_150.png", "x": 452, "y": 52 },
-            { "image_path": "assets/sys/scroll_up_off.png", "x": 452, "y": 52 },
+            { "image_path": "assets/sys/scroll_up_off.png", "x": 454, "y": 56 },
             { "image_path": "assets/sys/scroll_thumbh_57.png", "x": 456, "y": 127 },
-            { "image_path": "assets/sys/scroll_down_dim.png", "x": 452, "y": 186 }
+            { "image_path": "assets/sys/scroll_down_dim.png", "x": 454, "y": 191 }
           ]
         }
       ]

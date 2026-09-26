@@ -26,16 +26,16 @@
     { "image_path": "assets/payloadlog/scroll_down_indicator.png", "x": 465, "y": 180 }
   ],
   "payload_running_indicator": [
-    { "image_path": "assets/payloadlog/payload_running_indicator.png", "x": 0, "y": 179 }
+    { "image_path": "assets/payloadlog/payload_running_indicator.png", "x": 0, "y": 181 }
   ],
   "payload_complete_indicator": [
-    { "image_path": "assets/payloadlog/payload_complete_indicator.png", "x": 0, "y": 179 }
+    { "image_path": "assets/payloadlog/payload_complete_indicator.png", "x": 0, "y": 181 }
   ],
   "payload_stopped_indicator": [
     { "image_path": "assets/payloadlog/payload_stopped_indicator.png", "x": 0, "y": 179 }
   ],
   "payload_error_indicator": [
-    { "image_path": "assets/payloadlog/payload_error_indicator.png", "x": 0, "y": 179 }
+    { "image_path": "assets/payloadlog/payload_error_indicator.png", "x": 0, "y": 181 }
   ],
   "status_bar": "default",
   "refresh_interval": 0.75,

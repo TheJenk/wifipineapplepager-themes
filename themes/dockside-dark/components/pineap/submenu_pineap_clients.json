@@ -14,7 +14,9 @@
     },
     "background": {
       "layers": [
-        { "image_path": "assets/sys/pineap_clients.png", "x": 0, "y": 0 },
+        { "image_path": "assets/sys/base.png", "x": 0, "y": 0 },
+        { "image_path": "assets/sys/sidebar_hl.png", "x": 5, "y": 189 },
+        { "image_path": "assets/sys/card_308x3x50.png", "x": 162, "y": 50 },
         { "text": "Clients", "text_size": "small", "text_color_palette": "blue", "x": 66, "y": 8 },
         { "image_path": "assets/sys/cat_pineap.png", "x": 10, "y": 62 },
         { "text": "PineAP", "text_size": "small", "text_color_palette": "blue", "x": 34, "y": 65 },

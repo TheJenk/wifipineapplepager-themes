@@ -14,7 +14,8 @@
     },
     "background": {
       "layers": [
-        { "image_path": "assets/portal/bg_payloads_none.png", "x": 0, "y": 0 },
+        { "image_path": "assets/portal/base.png", "x": 0, "y": 0 },
+        { "image_path": "assets/portal/sidebar_hl.png", "x": 5, "y": 74 },
         { "text": "Alert Payloads", "text_size": "small", "text_color_palette": "blue", "x": 66, "y": 8 },
         {
           "variable_name": "$_LIST_PAGINATOR_LABEL_SHORT",
@@ -29,9 +30,9 @@
           }
         },
         { "image_path": "assets/sys/scroll_track_150.png", "x": 460, "y": 40 },
-        { "image_path": "assets/sys/scroll_up_off.png", "x": 460, "y": 40 },
+        { "image_path": "assets/sys/scroll_up_off.png", "x": 462, "y": 44 },
         { "image_path": "assets/sys/scroll_thumbh_46.png", "x": 464, "y": 58 },
-        { "image_path": "assets/sys/scroll_down_off.png", "x": 460, "y": 174 }
+        { "image_path": "assets/sys/scroll_down_off.png", "x": 462, "y": 179 }
       ]
     },
     "pages": [
@@ -40,7 +41,7 @@
           {
             "id": "Slot0",
             "layers": [
-              { "image_path": "assets/folder.png", "x": 146, "y": 43, "recolor_palette": "accent" },
+              { "image_path": "assets/folder.png", "x": 148, "y": 47, "recolor_palette": "accent" },
               {
                 "variable_name": "$_LIST_ITEM",
                 "x": 178,
@@ -57,7 +58,7 @@
             ],
             "selected_layers": [
               { "image_path": "assets/ui/sel_312x28.png", "x": 140, "y": 41 },
-              { "image_path": "assets/folder.png", "x": 146, "y": 43, "recolor_palette": "white" },
+              { "image_path": "assets/folder.png", "x": 148, "y": 47, "recolor_palette": "white" },
               {
                 "variable_name": "$_LIST_ITEM",
                 "x": 178,
@@ -78,7 +79,7 @@
           {
             "id": "Slot1",
             "layers": [
-              { "image_path": "assets/folder.png", "x": 146, "y": 73, "recolor_palette": "accent" },
+              { "image_path": "assets/folder.png", "x": 148, "y": 77, "recolor_palette": "accent" },
               {
                 "variable_name": "$_LIST_ITEM",
                 "x": 178,
@@ -95,7 +96,7 @@
             ],
             "selected_layers": [
               { "image_path": "assets/ui/sel_312x28.png", "x": 140, "y": 71 },
-              { "image_path": "assets/folder.png", "x": 146, "y": 73, "recolor_palette": "white" },
+              { "image_path": "assets/folder.png", "x": 148, "y": 77, "recolor_palette": "white" },
               {
                 "variable_name": "$_LIST_ITEM",
                 "x": 178,
@@ -116,7 +117,7 @@
           {
             "id": "Slot2",
             "layers": [
-              { "image_path": "assets/folder.png", "x": 146, "y": 103, "recolor_palette": "accent" },
+              { "image_path": "assets/folder.png", "x": 148, "y": 107, "recolor_palette": "accent" },
               {
                 "variable_name": "$_LIST_ITEM",
                 "x": 178,
@@ -133,7 +134,7 @@
             ],
             "selected_layers": [
               { "image_path": "assets/ui/sel_312x28.png", "x": 140, "y": 101 },
-              { "image_path": "assets/folder.png", "x": 146, "y": 103, "recolor_palette": "white" },
+              { "image_path": "assets/folder.png", "x": 148, "y": 107, "recolor_palette": "white" },
               {
                 "variable_name": "$_LIST_ITEM",
                 "x": 178,
@@ -154,7 +155,7 @@
           {
             "id": "Slot3",
             "layers": [
-              { "image_path": "assets/folder.png", "x": 146, "y": 133, "recolor_palette": "accent" },
+              { "image_path": "assets/folder.png", "x": 148, "y": 137, "recolor_palette": "accent" },
               {
                 "variable_name": "$_LIST_ITEM",
                 "x": 178,
@@ -171,7 +172,7 @@
             ],
             "selected_layers": [
               { "image_path": "assets/ui/sel_312x28.png", "x": 140, "y": 131 },
-              { "image_path": "assets/folder.png", "x": 146, "y": 133, "recolor_palette": "white" },
+              { "image_path": "assets/folder.png", "x": 148, "y": 137, "recolor_palette": "white" },
               {
                 "variable_name": "$_LIST_ITEM",
                 "x": 178,
@@ -192,7 +193,7 @@
           {
             "id": "Slot4",
             "layers": [
-              { "image_path": "assets/folder.png", "x": 146, "y": 163, "recolor_palette": "accent" },
+              { "image_path": "assets/folder.png", "x": 148, "y": 167, "recolor_palette": "accent" },
               {
                 "variable_name": "$_LIST_ITEM",
                 "x": 178,
@@ -209,7 +210,7 @@
             ],
             "selected_layers": [
               { "image_path": "assets/ui/sel_312x28.png", "x": 140, "y": 161 },
-              { "image_path": "assets/folder.png", "x": 146, "y": 163, "recolor_palette": "white" },
+              { "image_path": "assets/folder.png", "x": 148, "y": 167, "recolor_palette": "white" },
               {
                 "variable_name": "$_LIST_ITEM",
                 "x": 178,

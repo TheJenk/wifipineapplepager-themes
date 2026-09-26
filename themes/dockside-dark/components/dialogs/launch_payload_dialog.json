@@ -13,7 +13,7 @@
   },
   "background": {
     "layers": [
-      { "image_path": "assets/launch_payload_dialog/launch_payload_bg.png", "x": 0, "y": 0 },
+      { "image_path": "assets/launch_payload_dialog/launch_payload_bg.png", "x": 57, "y": 19 },
       {
         "variable_name": "$_PAYLOAD_TITLE",
         "x": 168,

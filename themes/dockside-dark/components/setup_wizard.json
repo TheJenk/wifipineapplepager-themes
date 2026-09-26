@@ -38,7 +38,7 @@
         {
           "id": "setup0",
           "selected_layers": [
-            { "image_path": "assets/flame.png", "recolor_palette": "green", "x": 119, "y": 17 },
+            { "image_path": "assets/flame.png", "recolor_palette": "green", "x": 120, "y": 18 },
             { "x": 142, "y": 10, "text": "WELCOME, HACKER", "text_color_palette": "accent", "text_size": "large", "max_chars": 42, "wrap_text": true, "max_lines": 10 },
             { "x": 117, "y": 60, "text": "To the WiFi Pineapple Pager.\n\nLet's get started by going\n\nover a few important notices\n\nand configuring your device.", "text_color_palette": "blue", "max_chars": 42, "wrap_text": true, "max_lines": 10 },
             { "x": 117, "y": 185, "text": "Press down to continue.", "text_color_palette": "accent", "max_chars": 42, "wrap_text": true, "max_lines": 10 }
@@ -66,7 +66,7 @@
         {
           "id": "setup1",
           "selected_layers": [
-            { "image_path": "assets/warning.png", "recolor_palette": "green", "x": 112, "y": 13 },
+            { "image_path": "assets/warning.png", "recolor_palette": "green", "x": 117, "y": 18 },
             { "x": 142, "y": 10, "text": "NOTICE: Firmware", "text_color_palette": "accent", "text_size": "large", "max_chars": 42, "wrap_text": true, "max_lines": 10 },
             { "x": 117, "y": 60, "text": "Welcome to the cutting edge.\n\nNew features are released\n\noften. Please give feedback\n\nand join the community at\n\nhttps://hak5.org/pager", "text_color_palette": "blue", "max_chars": 42, "wrap_text": true, "max_lines": 10 }
           ]
@@ -93,7 +93,7 @@
         {
           "id": "setup2",
           "selected_layers": [
-            { "image_path": "assets/warning.png", "recolor_palette": "green", "x": 112, "y": 13 },
+            { "image_path": "assets/warning.png", "recolor_palette": "green", "x": 117, "y": 18 },
             { "x": 142, "y": 10, "text": "NOTICE: Thermals", "text_color_palette": "accent", "text_size": "large", "max_chars": 42, "wrap_text": true, "max_lines": 10 },
             { "x": 117, "y": 60, "text": "Ensure adequate airflow.\n\nDO NOT block cooling vents.\n\n\nThe screen will be HOT to\n\nthe touch with extended use.", "text_color_palette": "blue", "max_chars": 42, "wrap_text": true, "max_lines": 10 }
           ]
@@ -120,10 +120,10 @@
         {
           "id": "setup3",
           "selected_layers": [
-            { "image_path": "assets/warning.png", "recolor_palette": "green", "x": 112, "y": 13 },
+            { "image_path": "assets/warning.png", "recolor_palette": "green", "x": 117, "y": 18 },
             { "x": 142, "y": 10, "text": "NOTICE: Charging", "text_color_palette": "accent", "text_size": "large", "max_chars": 42, "wrap_text": true, "max_lines": 10 },
-            { "x": 117, "y": 60, "text": "Fully charge before each use\n\nusing a compatible charger.\n\n\u200e\u200e\u200eUSB-C smartphone chargers\n\n\u200e\u200e\u200eMost computer USB-C ports\n\nLearn more at hak5.org/pager", "text_color_palette": "blue", "max_chars": 42, "wrap_text": true, "max_lines": 10 },
-            { "image_path": "assets/optiondialog/check.png", "recolor_palette": "green", "x": 117, "y": 129 },
+            { "x": 117, "y": 60, "text": "Fully charge before each use\n\nusing a compatible charger.\n\n‎‎‎USB-C smartphone chargers\n\n‎‎‎Most computer USB-C ports\n\nLearn more at hak5.org/pager", "text_color_palette": "blue", "max_chars": 42, "wrap_text": true, "max_lines": 10 },
+            { "image_path": "assets/optiondialog/check.png", "recolor_palette": "green", "x": 117, "y": 130 },
             { "image_path": "assets/optiondialog/x.png", "recolor_palette": "red", "x": 120, "y": 161 }
           ]
         }
@@ -149,10 +149,10 @@
         {
           "id": "setup4",
           "selected_layers": [
-            { "image_path": "assets/dashboard/settings.png", "recolor_palette": "green", "x": 117, "y": 10 },
+            { "image_path": "assets/dashboard/settings.png", "recolor_palette": "green", "x": 117, "y": 11 },
             { "x": 160, "y": 10, "text": "PIN CODE", "text_color_palette": "accent", "text_size": "large", "max_chars": 42, "wrap_text": true, "max_lines": 10 },
             { "x": 117, "y": 60, "text": "You may set a PIN Code for\n\nuse when locking the screen.", "text_color_palette": "blue", "max_chars": 42, "wrap_text": true, "max_lines": 10 },
-            { "image_path": "assets/keyboard.png", "recolor_palette": "green", "x": 182, "y": 136 },
+            { "image_path": "assets/keyboard.png", "recolor_palette": "green", "x": 185, "y": 140 },
             { "text": "Set PIN Code", "x": 225, "y": 136, "text_color_palette": "accent" },
             { "x": 117, "y": 185, "text": "Press the green 'A' button to set a PIN,\nor press down to skip this for now.", "text_color_palette": "blue", "text_size": "small", "max_chars": 42, "wrap_text": true, "max_lines": 10 }
           ],
@@ -181,10 +181,10 @@
         {
           "id": "root_password",
           "selected_layers": [
-            { "image_path": "assets/dashboard/settings.png", "recolor_palette": "green", "x": 117, "y": 10 },
+            { "image_path": "assets/dashboard/settings.png", "recolor_palette": "green", "x": 117, "y": 11 },
             { "x": 160, "y": 10, "text": "ROOT PASSWORD", "text_color_palette": "accent", "text_size": "large", "max_chars": 42, "wrap_text": true, "max_lines": 10 },
             { "x": 117, "y": 60, "text": "Set a root password for SSH\n\nand Virtual Pager access.", "text_color_palette": "blue", "max_chars": 42, "wrap_text": true, "max_lines": 10 },
-            { "image_path": "assets/keyboard.png", "recolor_palette": "green", "x": 182, "y": 136 },
+            { "image_path": "assets/keyboard.png", "recolor_palette": "green", "x": 185, "y": 140 },
             { "text": "Set Password", "x": 225, "y": 136, "text_color_palette": "accent" },
             { "x": 117, "y": 185, "text": "Press the green 'A' button to set the\npassword, then press down to continue.", "text_color_palette": "blue", "text_size": "small", "max_chars": 42, "wrap_text": true, "max_lines": 10 }
           ],
@@ -213,10 +213,10 @@
         {
           "id": "set_timezone",
           "selected_layers": [
-            { "image_path": "assets/dashboard/settings.png", "recolor_palette": "green", "x": 117, "y": 10 },
+            { "image_path": "assets/dashboard/settings.png", "recolor_palette": "green", "x": 117, "y": 11 },
             { "x": 160, "y": 10, "text": "SET TIMEZONE", "text_color_palette": "accent", "text_size": "large", "max_chars": 42, "wrap_text": true, "max_lines": 10 },
             { "x": 117, "y": 60, "text": "Set your timezone now to\n\nenable over-the-air updates.", "text_color_palette": "blue", "max_chars": 42, "wrap_text": true, "max_lines": 10 },
-            { "image_path": "assets/menu.png", "recolor_palette": "green", "x": 182, "y": 136 },
+            { "image_path": "assets/menu.png", "recolor_palette": "green", "x": 186, "y": 141 },
             { "text": "Set Timezone", "x": 225, "y": 136, "text_color_palette": "accent" },
             { "x": 117, "y": 185, "text": "Press the green 'A' button to set the\ntimezone, then press down to continue.", "text_color_palette": "blue", "text_size": "small", "max_chars": 42, "wrap_text": true, "max_lines": 10 }
           ],
@@ -233,7 +233,7 @@
           "unselectable": true,
           "layers": [
             { "image_path": "assets/pager-16bit.png", "x": 10, "y": 10 },
-            { "x": 112, "y": 13, "image_path": "assets/warning.png", "recolor_palette": "green" },
+            { "x": 117, "y": 18, "image_path": "assets/warning.png", "recolor_palette": "green" },
             { "x": 142, "y": 10, "text": "License", "text_color_palette": "accent", "text_size": "large" },
             { "x": 117, "y": 120, "text": "This pentest tool is intended for \nauthorized auditing & security analysis \nonly where permitted. Subject to local\nand international laws where applicable.\nUsers solely responsible for compliance.\n\nHak5 LLC claims no responsibility for\nunauthorized or unlawful use.", "text_color_palette": "blue", "text_size": "small", "max_chars": 42, "wrap_text": true, "max_lines": 10 },
             { "x": 25, "y": 100, "text_size": "small", "text_color_palette": "gray", "text": "Welcome" },

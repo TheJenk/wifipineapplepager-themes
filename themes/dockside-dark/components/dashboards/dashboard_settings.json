@@ -13,7 +13,7 @@
   },
   "background": {
     "layers": [
-      { "image_path": "assets/sys/settings_home.png", "x": 0, "y": 0 },
+      { "image_path": "assets/sys/base.png", "x": 0, "y": 0 },
       { "text": "Settings", "text_size": "small", "text_color_palette": "blue", "x": 66, "y": 8 }
     ]
   },

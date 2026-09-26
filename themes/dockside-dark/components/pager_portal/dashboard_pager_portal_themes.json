@@ -5,7 +5,9 @@
   "cache_canvases": false,
   "background": {
     "layers": [
-      { "image_path": "assets/portal/bg_themes_themes.png", "x": 0, "y": 0 },
+      { "image_path": "assets/portal/base.png", "x": 0, "y": 0 },
+      { "image_path": "assets/portal/sidebar_hl.png", "x": 5, "y": 152 },
+      { "text": "Themes", "text_size": "medium", "text_color_palette": "blue", "x": 146, "y": 32 },
       { "text": "Themes", "text_size": "small", "text_color_palette": "blue", "x": 66, "y": 8 }
     ]
   },

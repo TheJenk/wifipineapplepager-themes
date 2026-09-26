@@ -143,9 +143,9 @@
           "unselectable": true,
           "layers": [
             { "image_path": "assets/sys/scroll_track_150.png", "x": 424, "y": 34 },
-            { "image_path": "assets/sys/scroll_up_dim.png", "x": 424, "y": 34 },
+            { "image_path": "assets/sys/scroll_up_dim.png", "x": 426, "y": 38 },
             { "image_path": "assets/sys/scroll_thumbh_57.png", "x": 428, "y": 52 },
-            { "image_path": "assets/sys/scroll_down_off.png", "x": 424, "y": 168 }
+            { "image_path": "assets/sys/scroll_down_off.png", "x": 426, "y": 173 }
           ]
         }
       ]
@@ -214,9 +214,9 @@
           "unselectable": true,
           "layers": [
             { "image_path": "assets/sys/scroll_track_150.png", "x": 424, "y": 34 },
-            { "image_path": "assets/sys/scroll_up_off.png", "x": 424, "y": 34 },
+            { "image_path": "assets/sys/scroll_up_off.png", "x": 426, "y": 38 },
             { "image_path": "assets/sys/scroll_thumbh_57.png", "x": 428, "y": 109 },
-            { "image_path": "assets/sys/scroll_down_dim.png", "x": 424, "y": 168 }
+            { "image_path": "assets/sys/scroll_down_dim.png", "x": 426, "y": 173 }
           ]
         }
       ]

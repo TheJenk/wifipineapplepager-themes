@@ -57,9 +57,9 @@
         { "text": "Ch", "x": 322, "y": 35, "text_size": "small", "text_color_palette": "gray" },
         { "text": "Packets", "x": 360, "y": 35, "text_size": "small", "text_color_palette": "gray" },
         { "image_path": "assets/sys/scroll_track_170.png", "x": 462, "y": 50 },
-        { "image_path": "assets/sys/scroll_up_off.png", "x": 462, "y": 50 },
+        { "image_path": "assets/sys/scroll_up_off.png", "x": 464, "y": 54 },
         { "image_path": "assets/sys/scroll_thumbh_54.png", "x": 466, "y": 68 },
-        { "image_path": "assets/sys/scroll_down_off.png", "x": 462, "y": 204 }
+        { "image_path": "assets/sys/scroll_down_off.png", "x": 464, "y": 209 }
       ]
     },
     "pages": [
@@ -71,17 +71,17 @@
             "x": 77,
             "y": 3,
             "layers": [
-              { "image_path": "assets/autoplay_stopped.png", "recolor_palette": "gray" }
+              { "image_path": "assets/autoplay_stopped.png", "recolor_palette": "gray", "x": 1, "y": 3 }
             ],
             "selected_layers": [
               {
                 "variable_name": "$_RECON_LIST_AUTOUPDATING",
                 "toggle_template": {
                   "enabled": [
-                    { "image_path": "assets/autoplay.png", "recolor_palette": "green" }
+                    { "image_path": "assets/autoplay.png", "recolor_palette": "green", "x": 1, "y": 1 }
                   ],
                   "disabled": [
-                    { "image_path": "assets/autoplay_stopped.png", "recolor_palette": "yellow" }
+                    { "image_path": "assets/autoplay_stopped.png", "recolor_palette": "yellow", "x": 1, "y": 3 }
                   ]
                 }
               }

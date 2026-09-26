@@ -48,26 +48,26 @@
         "2": [
           { "image_path": "assets/statusbar/ghz_2.png" }
         ],
-        "25": [
-          { "image_path": "assets/statusbar/ghz_25.png" }
-        ],
-        "256": [
-          { "image_path": "assets/statusbar/ghz_256.png" }
-        ],
-        "26": [
-          { "image_path": "assets/statusbar/ghz_26.png" }
-        ],
-        "56": [
-          { "image_path": "assets/statusbar/ghz_56.png" }
-        ],
         "5": [
           { "image_path": "assets/statusbar/ghz_5.png" }
         ],
         "6": [
           { "image_path": "assets/statusbar/ghz_6.png" }
         ],
+        "25": [
+          { "image_path": "assets/statusbar/ghz_25.png" }
+        ],
+        "26": [
+          { "image_path": "assets/statusbar/ghz_26.png", "x": 0, "y": 1 }
+        ],
+        "56": [
+          { "image_path": "assets/statusbar/ghz_56.png" }
+        ],
+        "256": [
+          { "image_path": "assets/statusbar/ghz_256.png" }
+        ],
         "off": [
-          { "image_path": "assets/statusbar/ghz_off.png" }
+          { "image_path": "assets/statusbar/ghz_off.png", "x": 0, "y": 0 }
         ]
       }
     },
@@ -76,13 +76,13 @@
       "y": 5,
       "layers": {
         "15": [
-          { "image_path": "assets/statusbar/dashboard_brightness_2.png" }
+          { "image_path": "assets/statusbar/dashboard_brightness_2.png", "x": 4, "y": 0 }
         ],
         "25": [
-          { "image_path": "assets/statusbar/dashboard_brightness_3.png" }
+          { "image_path": "assets/statusbar/dashboard_brightness_3.png", "x": 4, "y": 0 }
         ],
         "50": [
-          { "image_path": "assets/statusbar/dashboard_brightness_5.png" }
+          { "image_path": "assets/statusbar/dashboard_brightness_5.png", "x": 4, "y": 0 }
         ],
         "75": [
           { "image_path": "assets/statusbar/dashboard_brightness_7.png" }
@@ -97,10 +97,10 @@
       "y": 5,
       "layers": {
         "on": [
-          { "image_path": "assets/statusbar/pcap.png", "recolor_palette": "red" }
+          { "image_path": "assets/statusbar/pcap.png", "recolor_palette": "red", "x": 0, "y": 0 }
         ],
         "off": [
-          { "image_path": "assets/statusbar/pcap.png", "recolor_palette": "gray" }
+          { "image_path": "assets/statusbar/pcap.png", "recolor_palette": "gray", "x": 0, "y": 0 }
         ]
       }
     },
@@ -133,10 +133,10 @@
       "y": 4,
       "layers": {
         "on": [
-          { "image_path": "assets/statusbar/wigle.png", "x": 0, "y": 0 }
+          { "image_path": "assets/statusbar/wigle.png", "x": 1, "y": 0 }
         ],
         "off": [
-          { "image_path": "assets/statusbar/wigle.png", "x": 0, "y": 0, "recolor_palette": "gray" }
+          { "image_path": "assets/statusbar/wigle.png", "x": 1, "y": 0, "recolor_palette": "gray" }
         ]
       }
     }
