@@ -126,7 +126,15 @@
             { "image_path": "assets/portal/pill_update_96x24_on.png", "x": 214, "y": 86 }
           ],
           "target": "function_update_payload",
-          "variable": "$_INPUT"
+          "variable": "$_INPUT",
+          "button_map": {
+            "a": "select",
+            "b": "back",
+            "up": "previous",
+            "down": "next",
+            "left": "back",
+            "right": "goto Back"
+          }
         },
         {
           "id": "Back",
@@ -136,7 +144,15 @@
           "selected_layers": [
             { "image_path": "assets/portal/pill_back_70x24_on.png", "x": 318, "y": 86 }
           ],
-          "target": "back"
+          "target": "back",
+          "button_map": {
+            "a": "select",
+            "b": "back",
+            "up": "previous",
+            "down": "next",
+            "left": "goto Upgrade",
+            "right": "noop"
+          }
         }
       ]
     }

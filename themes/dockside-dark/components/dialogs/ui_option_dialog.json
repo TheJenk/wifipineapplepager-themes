@@ -214,7 +214,7 @@
               "b": "select_list",
               "up": "previous",
               "down": "next",
-              "left": "select_list",
+              "left": "goto Cancel",
               "right": "noop"
             }
           },
@@ -234,7 +234,7 @@
               "up": "previous",
               "down": "next",
               "left": "select_list",
-              "right": "noop"
+              "right": "goto Save"
             }
           },
           {

@@ -18,7 +18,15 @@
       "selected_layers": [
         { "image_path": "assets/ui/btn_save_96x32_on.png", "x": 368, "y": 156 }
       ],
-      "target": "save"
+      "target": "save",
+      "button_map": {
+        "a": "select",
+        "b": "back",
+        "up": "previous",
+        "down": "next",
+        "left": "goto Cancel",
+        "right": "noop"
+      }
     },
     {
       "id": "Edit",
@@ -29,7 +37,15 @@
         { "image_path": "assets/ui/btn_edit_96x32_on.png", "x": 30, "y": 156 }
       ],
       "target": "keyboard",
-      "variable": "$_INPUT"
+      "variable": "$_INPUT",
+      "button_map": {
+        "a": "select",
+        "b": "back",
+        "up": "previous",
+        "down": "next",
+        "left": "noop",
+        "right": "goto Cancel"
+      }
     },
     {
       "id": "Cancel",
@@ -39,7 +55,15 @@
       "selected_layers": [
         { "image_path": "assets/ui/btn_cancel_96x32_on.png", "x": 262, "y": 156 }
       ],
-      "target": "back"
+      "target": "back",
+      "button_map": {
+        "a": "select",
+        "b": "back",
+        "up": "previous",
+        "down": "next",
+        "left": "goto Edit",
+        "right": "goto Save"
+      }
     },
     {
       "id": "Title",
