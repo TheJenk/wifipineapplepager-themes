@@ -175,7 +175,7 @@
       "page_index": 11,
       "menu_items": [
         {
-          "id": "tut11",
+          "id": "tut11_2",
           "selected_layers": [
             { "x": 400, "y": 40, "text": "12 of 16", "text_color_palette": "accent", "text_size": "small" },
             { "x": 128, "y": 74, "text_color_palette": "black", "text_size": "small", "max_chars": 42, "wrap_text": true, "max_lines": 10, "text": "Settings is home to many features,\nlike 'Virtual Pager'. It lets you\ninteract with the Pager, access its\nterminal, download loot and more\nfrom a web browser via USB-C or WiFi\nvia the Management Access Point." }
