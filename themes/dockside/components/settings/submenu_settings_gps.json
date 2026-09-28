@@ -34,7 +34,7 @@
       "page_index": 0,
       "menu_items": [
         {
-          "id": "Port",
+          "id": "Port_2",
           "layers": [
             { "text": "Lat:", "x": 176, "y": 60, "text_size": "small", "text_color_palette": "gray" },
             {
