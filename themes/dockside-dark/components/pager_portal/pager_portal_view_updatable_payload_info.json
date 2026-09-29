@@ -131,7 +131,7 @@
             "a": "select",
             "b": "back",
             "up": "previous",
-            "down": "next",
+            "down": "noop",
             "left": "back",
             "right": "goto Back"
           }
@@ -148,7 +148,7 @@
           "button_map": {
             "a": "select",
             "b": "back",
-            "up": "previous",
+            "up": "noop",
             "down": "next",
             "left": "goto Upgrade",
             "right": "noop"

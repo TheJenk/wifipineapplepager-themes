@@ -26,7 +26,15 @@
             { "image_path": "assets/portal/row_userpayloads_on.png", "x": 146, "y": 56 }
           ],
           "target": "pager_portal_get_user_payloads",
-          "variable": "$_GET_USER_PAYLOAD_CATEGORIES"
+          "variable": "$_GET_USER_PAYLOAD_CATEGORIES",
+          "button_map": {
+            "a": "select",
+            "b": "back",
+            "up": "previous",
+            "down": "next",
+            "left": "previous",
+            "right": "noop"
+          }
         },
         {
           "id": "Alert Payloads",
@@ -37,7 +45,15 @@
             { "image_path": "assets/portal/row_alertpayloads_on.png", "x": 146, "y": 100 }
           ],
           "target": "pager_portal_get_alert_payloads",
-          "variable": "$_GET_ALERT_PAYLOAD_CATEGORIES"
+          "variable": "$_GET_ALERT_PAYLOAD_CATEGORIES",
+          "button_map": {
+            "a": "select",
+            "b": "back",
+            "up": "previous",
+            "down": "next",
+            "left": "noop",
+            "right": "noop"
+          }
         },
         {
           "id": "Recon Payloads",
@@ -48,7 +64,15 @@
             { "image_path": "assets/portal/row_reconpayloads_on.png", "x": 146, "y": 144 }
           ],
           "target": "pager_portal_get_recon_payloads",
-          "variable": "$_GET_RECON_PAYLOAD_CATEGORIES"
+          "variable": "$_GET_RECON_PAYLOAD_CATEGORIES",
+          "button_map": {
+            "a": "select",
+            "b": "back",
+            "up": "previous",
+            "down": "next",
+            "left": "noop",
+            "right": "next"
+          }
         }
       ]
     }

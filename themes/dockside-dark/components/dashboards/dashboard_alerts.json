@@ -42,7 +42,15 @@
             { "text": "Evil AP Auth Captured", "x": 152, "y": 56, "text_size": "small", "text_color_palette": "white" }
           ],
           "target": "alerts_dialog_submenu",
-          "variable": "$_ALERTS_AUTH_CAPTURED"
+          "variable": "$_ALERTS_AUTH_CAPTURED",
+          "button_map": {
+            "a": "select",
+            "b": "back",
+            "up": "previous",
+            "down": "next",
+            "left": "previous",
+            "right": "noop"
+          }
         },
         {
           "id": "deauth flood",
@@ -56,10 +64,18 @@
             { "text": "Deauth Flood Detected", "x": 152, "y": 84, "text_size": "small", "text_color_palette": "white" }
           ],
           "target": "alerts_dialog_submenu",
-          "variable": "$_ALERTS_DEAUTH_FLOOD"
+          "variable": "$_ALERTS_DEAUTH_FLOOD",
+          "button_map": {
+            "a": "select",
+            "b": "back",
+            "up": "previous",
+            "down": "next",
+            "left": "goto newclient",
+            "right": "noop"
+          }
         },
         {
-          "id": "new client",
+          "id": "newclient",
           "layers": [
             { "image_path": "assets/folder.png", "x": 122, "y": 110, "recolor_palette": "accent" },
             { "text": "New Client Connected", "x": 152, "y": 112, "text_size": "small", "text_color_palette": "blue" }
@@ -70,10 +86,18 @@
             { "text": "New Client Connected", "x": 152, "y": 112, "text_size": "small", "text_color_palette": "white" }
           ],
           "target": "alerts_dialog_submenu",
-          "variable": "$_ALERTS_NEW_CLIENT"
+          "variable": "$_ALERTS_NEW_CLIENT",
+          "button_map": {
+            "a": "select",
+            "b": "back",
+            "up": "previous",
+            "down": "next",
+            "left": "goto handshakecapture",
+            "right": "noop"
+          }
         },
         {
-          "id": "handshake capture",
+          "id": "handshakecapture",
           "layers": [
             { "image_path": "assets/folder.png", "x": 122, "y": 138, "recolor_palette": "accent" },
             { "text": "Handshake Captured", "x": 152, "y": 140, "text_size": "small", "text_color_palette": "blue" }
@@ -84,7 +108,15 @@
             { "text": "Handshake Captured", "x": 152, "y": 140, "text_size": "small", "text_color_palette": "white" }
           ],
           "target": "alerts_dialog_submenu",
-          "variable": "$_ALERTS_HANDSHAKE_CAPTURE"
+          "variable": "$_ALERTS_HANDSHAKE_CAPTURE",
+          "button_map": {
+            "a": "select",
+            "b": "back",
+            "up": "previous",
+            "down": "next",
+            "left": "noop",
+            "right": "next"
+          }
         }
       ]
     }

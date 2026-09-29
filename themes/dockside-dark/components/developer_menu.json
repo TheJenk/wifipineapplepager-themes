@@ -187,9 +187,9 @@
             "a": "select",
             "b": "back",
             "up": "previous",
-            "down": "goto todisk",
-            "left": "goto tracedepth",
-            "right": "goto tracedepth"
+            "down": "goto tracedepth",
+            "left": "noop",
+            "right": "noop"
           }
         },
         {
@@ -211,7 +211,7 @@
             "up": "goto backgroundchanges",
             "down": "next",
             "left": "goto trace",
-            "right": "goto trace"
+            "right": "noop"
           }
         },
         {
