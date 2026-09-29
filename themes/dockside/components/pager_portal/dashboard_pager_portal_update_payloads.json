@@ -26,7 +26,15 @@
             { "image_path": "assets/portal/row_availableupdates_on.png", "x": 146, "y": 56 }
           ],
           "target": "pager_portal_update_payloads_list",
-          "variable": "$_UPDATE_PAYLOADS_LIST"
+          "variable": "$_UPDATE_PAYLOADS_LIST",
+          "button_map": {
+            "a": "select",
+            "b": "back",
+            "up": "previous",
+            "down": "next",
+            "left": "previous",
+            "right": "noop"
+          }
         },
         {
           "id": "Update All Payloads",
@@ -36,7 +44,15 @@
           "selected_layers": [
             { "image_path": "assets/portal/row_updateall_on.png", "x": 146, "y": 100 }
           ],
-          "target": "function_update_all_payloads"
+          "target": "function_update_all_payloads",
+          "button_map": {
+            "a": "select",
+            "b": "back",
+            "up": "previous",
+            "down": "next",
+            "left": "noop",
+            "right": "next"
+          }
         }
       ]
     }

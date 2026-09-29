@@ -213,7 +213,7 @@
               "a": "select",
               "b": "select_list",
               "up": "previous",
-              "down": "next",
+              "down": "noop",
               "left": "goto Cancel",
               "right": "noop"
             }
@@ -231,7 +231,7 @@
             "button_map": {
               "a": "select",
               "b": "select_list",
-              "up": "previous",
+              "up": "noop",
               "down": "next",
               "left": "select_list",
               "right": "goto Save"

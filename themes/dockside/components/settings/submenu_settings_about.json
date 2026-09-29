@@ -355,10 +355,10 @@
           "button_map": {
             "a": "select",
             "b": "back",
-            "up": "goto scroll_up",
+            "up": "noop",
             "down": "noop",
             "left": "back",
-            "right": "noop"
+            "right": "goto scroll_up"
           }
         },
         {
@@ -378,7 +378,7 @@
             "b": "back",
             "up": "goto scroll_down",
             "down": "goto developer_tools",
-            "left": "back",
+            "left": "goto developer_tools",
             "right": "noop"
           }
         }

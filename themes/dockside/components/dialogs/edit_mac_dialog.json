@@ -23,7 +23,7 @@
         "a": "select",
         "b": "back",
         "up": "previous",
-        "down": "next",
+        "down": "noop",
         "left": "goto Cancel",
         "right": "noop"
       }
@@ -41,8 +41,8 @@
       "button_map": {
         "a": "select",
         "b": "back",
-        "up": "previous",
-        "down": "next",
+        "up": "noop",
+        "down": "noop",
         "left": "noop",
         "right": "goto Cancel"
       }
@@ -59,7 +59,7 @@
       "button_map": {
         "a": "select",
         "b": "back",
-        "up": "previous",
+        "up": "noop",
         "down": "next",
         "left": "goto Edit",
         "right": "goto Save"

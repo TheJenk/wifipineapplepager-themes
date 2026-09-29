@@ -37,7 +37,7 @@
           "button_map": {
             "a": "select",
             "b": "quit_wizard",
-            "up": "goto save",
+            "up": "noop",
             "down": "next",
             "left": "noop",
             "right": "noop"
@@ -92,8 +92,8 @@
             "a": "select",
             "b": "quit_wizard",
             "up": "goto pass",
-            "down": "next",
-            "left": "goto save",
+            "down": "noop",
+            "left": "noop",
             "right": "goto save"
           },
           "layers": [
@@ -109,10 +109,10 @@
           "button_map": {
             "a": "select",
             "b": "quit_wizard",
-            "up": "previous",
-            "down": "goto ssid",
+            "up": "goto pass",
+            "down": "noop",
             "left": "goto clear",
-            "right": "goto clear"
+            "right": "noop"
           },
           "layers": [
             { "image_path": "assets/ui/btn_save_88x28_off.png", "x": 344, "y": 178 }

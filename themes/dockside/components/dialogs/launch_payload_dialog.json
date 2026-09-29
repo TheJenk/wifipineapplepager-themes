@@ -64,7 +64,7 @@
         "a": "select",
         "b": "back",
         "up": "previous",
-        "down": "next",
+        "down": "noop",
         "left": "goto Cancel",
         "right": "noop"
       }
@@ -81,7 +81,7 @@
       "button_map": {
         "a": "select",
         "b": "back",
-        "up": "previous",
+        "up": "noop",
         "down": "next",
         "left": "back",
         "right": "goto Launch"

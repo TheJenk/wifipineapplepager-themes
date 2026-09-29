@@ -19,7 +19,15 @@
           "selected_layers": [
             { "image_path": "assets/ui/btn_cancel_96x32_on.png", "x": 250, "y": 176 }
           ],
-          "target": "back"
+          "target": "back",
+          "button_map": {
+            "a": "select",
+            "b": "back",
+            "up": "previous",
+            "down": "noop",
+            "left": "previous",
+            "right": "next"
+          }
         },
         {
           "id": "Cancel",
@@ -29,7 +37,15 @@
           "selected_layers": [
             { "image_path": "assets/ui/btn_ok_96x32_on.png", "x": 352, "y": 176 }
           ],
-          "target": "confirm"
+          "target": "confirm",
+          "button_map": {
+            "a": "select",
+            "b": "back",
+            "up": "noop",
+            "down": "next",
+            "left": "previous",
+            "right": "next"
+          }
         }
       ]
     }
