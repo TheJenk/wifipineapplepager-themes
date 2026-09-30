@@ -22,7 +22,7 @@
         {
           "id": "lock_screen",
           "selected_layers": [
-            { "x": 200, "y": 110, "text_color_palette": "black", "text_size": "small", "max_chars": 42, "wrap_text": true, "max_lines": 10, "text": "Press 'A'\nto unlock" }
+            { "x": 174, "y": 136, "text_color_palette": "black", "text_size": "small", "max_chars": 42, "wrap_text": true, "max_lines": 1, "text": "Press A to unlock" }
           ]
         }
       ]
