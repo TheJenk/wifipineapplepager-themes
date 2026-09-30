@@ -30,7 +30,15 @@
             { "image_path": "assets/dock/menu_highlight.png", "x": -19, "y": -4 },
             { "text": "Sleep Screen", "text_color_palette": "white" }
           ],
-          "target": "function_sleep_screen"
+          "target": "function_sleep_screen",
+          "button_map": {
+            "a": "select",
+            "b": "back",
+            "up": "noop",
+            "down": "next",
+            "left": "noop",
+            "right": "noop"
+          }
         },
         {
           "id": "Lock Screen",
@@ -109,7 +117,31 @@
             { "image_path": "assets/dock/menu_highlight.png", "x": -19, "y": -4 },
             { "text": "Shutdown", "text_color_palette": "white" }
           ],
-          "target": "function_shutdown"
+          "target": "function_shutdown",
+          "button_map": {
+            "down": "goto egg_safe"
+          }
+        },
+        {
+          "id": "egg_safe",
+          "x": 45,
+          "y": 205,
+          "layers": [
+            { "image_path": "assets/dock/ghost.png", "x": 0, "y": 0 }
+          ],
+          "selected_layers": [
+            { "image_path": "assets/dock/notice_box.png", "x": 11, "y": -140 },
+            { "text": "It's now safe to turn", "text_color_palette": "blue", "x": 73, "y": -118 },
+            { "text": "off your Pager.", "text_color_palette": "blue", "x": 73, "y": -92 }
+          ],
+          "button_map": {
+            "a": "goto shutdown",
+            "b": "back",
+            "up": "goto shutdown",
+            "down": "noop",
+            "left": "noop",
+            "right": "noop"
+          }
         }
       ]
     }

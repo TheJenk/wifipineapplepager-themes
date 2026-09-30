@@ -38,7 +38,7 @@
       "button_map": {
         "a": "select",
         "b": "noop",
-        "up": "previous",
+        "up": "goto pineapple",
         "down": "noop",
         "left": "previous",
         "right": "next"
@@ -60,7 +60,7 @@
       "button_map": {
         "a": "select",
         "b": "noop",
-        "up": "noop",
+        "up": "goto pineapple",
         "down": "noop",
         "left": "previous",
         "right": "next"
@@ -83,7 +83,7 @@
       "button_map": {
         "a": "select",
         "b": "noop",
-        "up": "noop",
+        "up": "goto pineapple",
         "down": "noop",
         "left": "previous",
         "right": "next"
@@ -105,7 +105,7 @@
       "button_map": {
         "a": "select",
         "b": "noop",
-        "up": "noop",
+        "up": "goto pineapple",
         "down": "noop",
         "left": "previous",
         "right": "next"
@@ -127,7 +127,7 @@
       "button_map": {
         "a": "select",
         "b": "noop",
-        "up": "noop",
+        "up": "goto pineapple",
         "down": "noop",
         "left": "previous",
         "right": "next"
@@ -149,10 +149,30 @@
       "button_map": {
         "a": "select",
         "b": "noop",
-        "up": "noop",
-        "down": "next",
+        "up": "goto pineapple",
+        "down": "noop",
         "left": "previous",
-        "right": "next"
+        "right": "noop"
+      }
+    },
+    {
+      "id": "pineapple",
+      "layers": [
+        { "image_path": "assets/dock/ghost.png", "x": 0, "y": 0 }
+      ],
+      "selected_layers": [
+        { "image_path": "assets/dock/pineapple_menu.png", "x": 0, "y": 0 }
+      ],
+      "x": 4,
+      "y": 4,
+      "target": "power_menu",
+      "button_map": {
+        "a": "select",
+        "b": "goto pagerportal",
+        "up": "noop",
+        "down": "goto pagerportal",
+        "left": "noop",
+        "right": "noop"
       }
     }
   ]
