@@ -16,7 +16,7 @@
       { "text": "Locations", "x": 12, "y": 151, "text_size": "small", "text_color_palette": "gray" },
       { "text": "Pager HD", "x": 34, "y": 170, "text_size": "small", "text_color_palette": "blue" },
       { "text": "Name", "x": 152, "y": 32, "text_size": "small", "text_color_palette": "gray" },
-      { "text": "Pager HD > root > payloads > alerts", "x": 28, "y": 202, "text_size": "small", "text_color_palette": "blue" }
+      { "text": "Pager HD > payloads > alerts", "x": 28, "y": 202, "text_size": "small", "text_color_palette": "blue" }
     ],
     "background_color": {
       "r": 30,

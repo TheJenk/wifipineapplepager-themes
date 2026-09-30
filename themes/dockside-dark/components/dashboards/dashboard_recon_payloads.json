@@ -27,7 +27,7 @@
         { "text": "Pager HD", "x": 34, "y": 170, "text_size": "small", "text_color_palette": "blue" },
         { "text": "Name", "x": 152, "y": 32, "text_size": "small", "text_color_palette": "gray" },
         { "text": "Kind", "x": 392, "y": 32, "text_size": "small", "text_color_palette": "gray" },
-        { "text": "Pager HD > root > payloads > recon", "x": 28, "y": 202, "text_size": "small", "text_color_palette": "blue" },
+        { "text": "Pager HD > payloads > recon", "x": 28, "y": 202, "text_size": "small", "text_color_palette": "blue" },
         {
           "variable_name": "$_LIST_PAGINATOR_LABEL_SHORT",
           "x": 440,
