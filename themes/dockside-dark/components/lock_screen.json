@@ -13,7 +13,7 @@
   "background": {
     "layers": [
       { "image_path": "assets/wallpaper_dim.png", "x": 0, "y": 0 },
-      { "image_path": "assets/lock_screen.png", "x": 160, "y": 32 }
+      { "image_path": "assets/lock_screen.png", "x": 130, "y": 32 }
     ]
   },
   "pages": [
@@ -23,7 +23,21 @@
         {
           "id": "lock_screen",
           "selected_layers": [
-            { "x": 174, "y": 136, "text_color_palette": "black", "text_size": "small", "max_chars": 42, "wrap_text": true, "max_lines": 1, "text": "Press A to unlock" }
+            {
+              "text_color_palette": "black",
+              "text_size": "small",
+              "max_chars": 42,
+              "wrap_text": true,
+              "max_lines": 1,
+              "text": "Press A to unlock",
+              "center_text_within": {
+                "draw_bounds": false,
+                "start_x": 130,
+                "end_x": 350,
+                "start_y": 128,
+                "end_y": 156
+              }
+            }
           ]
         }
       ]
