@@ -21,7 +21,7 @@ A light, desktop-computer look for the WiFi Pineapple Pager.
   a classic scroll bar.
 - **Payloads:** browsing user, recon and alert payloads looks like a file browser, with a
   Favorites sidebar, a Name/Kind list and a path bar showing where you are
-  (`Pager HD > payloads > user > games`). Launching a payload drops a sheet from that
+  (`Pager HD > payloads > user`). Launching a payload drops a sheet from that
   window, where the Terminal icon's cursor blinks.
 - **Settings and PineAP:** styled like a system-settings app, with a sidebar of colored category
   icons and grouped rows showing switches, current values and chevrons, previewed live as you

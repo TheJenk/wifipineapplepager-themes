@@ -8,18 +8,7 @@
         { "image_path": "assets/finder/base.png", "x": 0, "y": 0 },
         { "image_path": "assets/finder/sidebar_hl.png", "x": 5, "y": 92 },
         { "image_path": "assets/finder/kind_divider.png", "x": 384, "y": 31 },
-        {
-          "variable_name": "$_INPUT_NAME",
-          "x": 66,
-          "y": 8,
-          "string_template": {
-            "text_size": "small",
-            "text_color_palette": "blue",
-            "max_chars": 22,
-            "wrap_text": false,
-            "max_lines": 1
-          }
-        },
+        { "text": "alerts", "x": 66, "y": 8, "text_size": "small", "text_color_palette": "blue" },
         { "text": "Favorites", "x": 12, "y": 33, "text_size": "small", "text_color_palette": "gray" },
         { "text": "Payloads", "x": 34, "y": 52, "text_size": "small", "text_color_palette": "blue" },
         { "text": "Recon", "x": 34, "y": 74, "text_size": "small", "text_color_palette": "blue" },
@@ -29,19 +18,7 @@
         { "text": "Pager HD", "x": 34, "y": 170, "text_size": "small", "text_color_palette": "blue" },
         { "text": "Name", "x": 152, "y": 32, "text_size": "small", "text_color_palette": "gray" },
         { "text": "Kind", "x": 392, "y": 32, "text_size": "small", "text_color_palette": "gray" },
-        { "text": "Pager HD > payloads > alerts >", "x": 28, "y": 202, "text_size": "small", "text_color_palette": "blue" },
-        {
-          "variable_name": "$_INPUT_NAME",
-          "x": 313,
-          "y": 202,
-          "string_template": {
-            "text_size": "small",
-            "text_color_palette": "blue",
-            "max_chars": 13,
-            "wrap_text": false,
-            "max_lines": 1
-          }
-        },
+        { "text": "Pager HD > payloads > alerts", "x": 28, "y": 202, "text_size": "small", "text_color_palette": "blue" },
         {
           "variable_name": "$_LIST_PAGINATOR_LABEL_SHORT",
           "x": 440,
