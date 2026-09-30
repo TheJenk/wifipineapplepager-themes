@@ -33,7 +33,7 @@ A light, desktop-computer look for the WiFi Pineapple Pager.
   and access point / client details with an info grid beside an actions card.
 - **Everything else:** the power menu drops down from the pineapple, the payload log is a
   Terminal window, confirmations and option/edit dialogs are sheets, alerts slide in as
-  notification cards, setup opens with a hand-lettered "hello", the lock screen is a login window,
+  notification cards, setup has a sidebar of steps, the lock screen is a login window,
   locked buttons show a small overlay, the keyboards are redrawn as keycaps, and the boot, update,
   battery, heat, license and QR screens all match the look.
 

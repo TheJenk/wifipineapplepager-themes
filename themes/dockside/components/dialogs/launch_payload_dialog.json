@@ -40,7 +40,7 @@
         }
       },
       { "text": "Launch this payload?", "x": 168, "y": 38, "text_size": "small", "text_color_palette": "gray" },
-      { "text": "Runs on the Pager right away.", "x": 168, "y": 110, "text_size": "small", "text_color_palette": "gray" },
+      { "text": "Runs on the Pager now.", "x": 168, "y": 110, "text_size": "small", "text_color_palette": "gray" },
       { "text": "Output opens in the log.", "x": 168, "y": 126, "text_size": "small", "text_color_palette": "gray" }
     ]
   },
