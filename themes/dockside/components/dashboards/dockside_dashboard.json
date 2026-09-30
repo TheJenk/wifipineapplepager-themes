@@ -161,7 +161,7 @@
         { "image_path": "assets/dock/ghost.png", "x": 0, "y": 0 }
       ],
       "selected_layers": [
-        { "image_path": "assets/dock/pineapple_menu.png", "x": 0, "y": 0 }
+        { "image_path": "assets/dock/pineapple_pressed.png", "x": 0, "y": 0 }
       ],
       "x": 4,
       "y": 4,
