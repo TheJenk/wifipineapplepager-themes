@@ -4,7 +4,7 @@
   "cache_canvases": false,
   "background": {
     "layers": [
-      { "image_path": "assets/confirmation_dialog_bg_term.png", "x": 28, "y": 0 },
+      { "image_path": "assets/confirmation_dialog_bg_term.png", "x": 60, "y": 28 },
       { "variable_name": "$_INPUT", "x": 60, "y": 60, "use_template": "confirmation_dialog_text" }
     ]
   },
@@ -14,10 +14,10 @@
         {
           "id": "Save",
           "layers": [
-            { "image_path": "assets/ui/btn_cancel_96x32_off.png", "x": 250, "y": 176 }
+            { "image_path": "assets/ui/btn_cancel_96x32_off.png", "x": 216, "y": 170 }
           ],
           "selected_layers": [
-            { "image_path": "assets/ui/btn_cancel_96x32_on.png", "x": 250, "y": 176 }
+            { "image_path": "assets/ui/btn_cancel_96x32_on.png", "x": 216, "y": 170 }
           ],
           "target": "back",
           "button_map": {
@@ -32,10 +32,10 @@
         {
           "id": "Cancel",
           "layers": [
-            { "image_path": "assets/ui/btn_ok_96x32_off.png", "x": 352, "y": 176 }
+            { "image_path": "assets/ui/btn_ok_96x32_off.png", "x": 318, "y": 170 }
           ],
           "selected_layers": [
-            { "image_path": "assets/ui/btn_ok_96x32_on.png", "x": 352, "y": 176 }
+            { "image_path": "assets/ui/btn_ok_96x32_on.png", "x": 318, "y": 170 }
           ],
           "target": "confirm",
           "button_map": {

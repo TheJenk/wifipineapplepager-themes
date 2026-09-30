@@ -13,7 +13,8 @@
   },
   "background": {
     "layers": [
-      { "image_path": "assets/dashboard/desktop.png", "x": 0, "y": 0 }
+      { "image_path": "assets/dashboard/desktop.png", "x": 0, "y": 0 },
+      { "image_path": "assets/dashboard/dock_shelf.png", "x": 57, "y": 157 }
     ],
     "background_color": {
       "r": 0,

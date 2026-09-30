@@ -6,9 +6,9 @@
   "max_lines": 11,
   "center_text_within": {
     "draw_bounds": false,
-    "start_x": 80,
-    "end_x": 400,
-    "start_y": 26,
-    "end_y": 160
+    "start_x": 76,
+    "end_x": 404,
+    "start_y": 46,
+    "end_y": 162
   }
 }

@@ -15,7 +15,10 @@
       "r": 245,
       "g": 245,
       "b": 247
-    }
+    },
+    "layers": [
+      { "image_path": "assets/setup/sidebar.png", "x": 0, "y": 0 }
+    ]
   },
   "pages": [
     {
@@ -38,10 +41,34 @@
         {
           "id": "setup0",
           "selected_layers": [
-            { "image_path": "assets/flame.png", "recolor_palette": "green", "x": 120, "y": 18 },
-            { "x": 142, "y": 10, "text": "WELCOME, HACKER", "text_color_palette": "accent", "text_size": "large", "max_chars": 42, "wrap_text": true, "max_lines": 10 },
-            { "x": 117, "y": 60, "text": "To the WiFi Pineapple Pager.\n\nLet's get started by going\n\nover a few important notices\n\nand configuring your device.", "text_color_palette": "blue", "max_chars": 42, "wrap_text": true, "max_lines": 10 },
-            { "x": 117, "y": 185, "text": "Press down to continue.", "text_color_palette": "accent", "max_chars": 42, "wrap_text": true, "max_lines": 10 }
+            { "image_path": "assets/setup/hello.png", "x": 213, "y": 14 },
+            {
+              "text": "Welcome to the WiFi Pineapple Pager.\nLet's get started by going over a few\nimportant notices and configuring\nyour device.",
+              "text_color_palette": "blue",
+              "text_size": "small",
+              "max_chars": 42,
+              "wrap_text": true,
+              "max_lines": 6,
+              "center_text_within": {
+                "draw_bounds": false,
+                "start_x": 116,
+                "end_x": 474,
+                "start_y": 100,
+                "end_y": 164
+              }
+            },
+            {
+              "text": "Press down to continue.",
+              "text_color_palette": "accent",
+              "text_size": "small",
+              "center_text_within": {
+                "draw_bounds": false,
+                "start_x": 116,
+                "end_x": 474,
+                "start_y": 180,
+                "end_y": 200
+              }
+            }
           ]
         }
       ]

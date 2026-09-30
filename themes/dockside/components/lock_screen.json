@@ -12,7 +12,8 @@
   },
   "background": {
     "layers": [
-      { "image_path": "assets/lock_screen.png", "x": 0, "y": 0 }
+      { "image_path": "assets/wallpaper_dim.png", "x": 0, "y": 0 },
+      { "image_path": "assets/lock_screen.png", "x": 160, "y": 32 }
     ]
   },
   "pages": [
