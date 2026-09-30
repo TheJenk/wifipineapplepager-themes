@@ -17,7 +17,7 @@
       { "text": "Client", "x": 66, "y": 8, "text_size": "small", "text_color_palette": "blue" },
       {
         "variable_name": "$_RECON_SELECTED_CLIENT_MAC_ADDRESS",
-        "x": 121,
+        "x": 130,
         "y": 8,
         "string_template": {
           "text_size": "small",
