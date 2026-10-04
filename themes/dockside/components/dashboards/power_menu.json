@@ -121,16 +121,16 @@
           ]
         },
         {
-          "id": "portalmenu",
+          "id": "updatemenu",
           "layers": [
-            { "text": "Pager Portal...", "text_color_palette": "blue" }
+            { "text": "Check for Updates...", "text_color_palette": "blue" }
           ],
-          "target": "pager_portal_dashboard",
+          "target": "check_for_updates",
           "x": 45,
           "y": 162,
           "selected_layers": [
             { "image_path": "assets/dock/menu_highlight.png", "x": -19, "y": -2 },
-            { "text": "Pager Portal...", "text_color_palette": "white" }
+            { "text": "Check for Updates...", "text_color_palette": "white" }
           ]
         },
         {

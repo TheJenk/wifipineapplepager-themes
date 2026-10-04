@@ -153,7 +153,7 @@
         "up": "goto pineapple",
         "down": "noop",
         "left": "previous",
-        "right": "noop"
+        "right": "goto qs_clock"
       }
     },
     {
@@ -316,6 +316,27 @@
         "up": "noop",
         "down": "goto pagerportal",
         "left": "goto qs_brightness",
+        "right": "goto qs_clock"
+      }
+    },
+    {
+      "id": "qs_clock",
+      "layers": [
+        { "image_path": "assets/dock/ghost.png", "x": 0, "y": 0 }
+      ],
+      "selected_layers": [
+        { "image_path": "assets/ui/sel_box_wide.png", "x": -6, "y": -3 }
+      ],
+      "x": 410,
+      "y": 5,
+      "target": "inline_toggle",
+      "variable": "$_CLOCK_24HR",
+      "button_map": {
+        "a": "select",
+        "b": "goto pagerportal",
+        "up": "noop",
+        "down": "goto pagerportal",
+        "left": "goto qs_volume",
         "right": "noop"
       }
     }
