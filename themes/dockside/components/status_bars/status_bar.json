@@ -10,7 +10,7 @@
   },
   "status_bar_items": {
     "Time": {
-      "x": 410,
+      "x": 400,
       "y": 7,
       "layers": {
         "default": []
@@ -18,7 +18,7 @@
       "recolor_palette": "blue"
     },
     "Battery": {
-      "x": 365,
+      "x": 360,
       "y": 7,
       "layers": {
         "discharging": [
@@ -42,7 +42,7 @@
       }
     },
     "Volume": {
-      "x": 341,
+      "x": 336,
       "y": 5,
       "layers": {
         "mute": [
@@ -60,7 +60,7 @@
       }
     },
     "Brightness": {
-      "x": 311,
+      "x": 307,
       "y": 5,
       "layers": {
         "15": [
@@ -81,7 +81,7 @@
       }
     },
     "Vibrate": {
-      "x": 281,
+      "x": 278,
       "y": 5,
       "layers": {
         "on": [
@@ -93,7 +93,7 @@
       }
     },
     "WifiClient": {
-      "x": 251,
+      "x": 249,
       "y": 4,
       "layers": {
         "disabled": [

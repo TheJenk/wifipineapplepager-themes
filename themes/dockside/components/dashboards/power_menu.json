@@ -25,11 +25,11 @@
           "x": 45,
           "y": 32,
           "layers": [
-            { "text": "Sleep Screen", "text_color_palette": "blue" }
+            { "text": "Sleep Screen", "text_size": "small", "text_color_palette": "blue" }
           ],
           "selected_layers": [
             { "image_path": "assets/dock/menu_highlight.png", "x": -19, "y": -2 },
-            { "text": "Sleep Screen", "text_color_palette": "white" }
+            { "text": "Sleep Screen", "text_size": "small", "text_color_palette": "white" }
           ],
           "target": "function_sleep_screen",
           "button_map": {
@@ -46,11 +46,11 @@
           "x": 45,
           "y": 56,
           "layers": [
-            { "text": "Lock Screen", "text_color_palette": "blue" }
+            { "text": "Lock Screen", "text_size": "small", "text_color_palette": "blue" }
           ],
           "selected_layers": [
             { "image_path": "assets/dock/menu_highlight.png", "x": -19, "y": -2 },
-            { "text": "Lock Screen", "text_color_palette": "white" }
+            { "text": "Lock Screen", "text_size": "small", "text_color_palette": "white" }
           ],
           "target": "function_lock_screen"
         },
@@ -59,11 +59,11 @@
           "x": 45,
           "y": 80,
           "layers": [
-            { "text": "Lock Buttons", "text_color_palette": "blue" }
+            { "text": "Lock Buttons", "text_size": "small", "text_color_palette": "blue" }
           ],
           "selected_layers": [
             { "image_path": "assets/dock/menu_highlight.png", "x": -19, "y": -2 },
-            { "text": "Lock Buttons", "text_color_palette": "white" }
+            { "text": "Lock Buttons", "text_size": "small", "text_color_palette": "white" }
           ],
           "target": "function_lock_buttons"
         },
@@ -72,7 +72,7 @@
           "x": 45,
           "y": 104,
           "layers": [
-            { "text": "Nerd Stats", "text_color_palette": "blue" },
+            { "text": "Nerd Stats", "text_size": "small", "text_color_palette": "blue" },
             {
               "variable_name": "$_STATS_FOR_NERDS",
               "x": 172,
@@ -89,7 +89,7 @@
           ],
           "selected_layers": [
             { "image_path": "assets/dock/menu_highlight.png", "x": -19, "y": -2 },
-            { "text": "Nerd Stats", "text_color_palette": "white" },
+            { "text": "Nerd Stats", "text_size": "small", "text_color_palette": "white" },
             {
               "variable_name": "$_STATS_FOR_NERDS",
               "x": 172,
@@ -110,27 +110,27 @@
         {
           "id": "settingsmenu",
           "layers": [
-            { "text": "Settings...", "text_color_palette": "blue" }
+            { "text": "Settings...", "text_size": "small", "text_color_palette": "blue" }
           ],
           "target": "settings_menu",
           "x": 45,
           "y": 138,
           "selected_layers": [
             { "image_path": "assets/dock/menu_highlight.png", "x": -19, "y": -2 },
-            { "text": "Settings...", "text_color_palette": "white" }
+            { "text": "Settings...", "text_size": "small", "text_color_palette": "white" }
           ]
         },
         {
           "id": "updatemenu",
           "layers": [
-            { "text": "Check for Updates...", "text_color_palette": "blue" }
+            { "text": "Check for Updates...", "text_size": "small", "text_color_palette": "blue" }
           ],
           "target": "check_for_updates",
           "x": 45,
           "y": 162,
           "selected_layers": [
             { "image_path": "assets/dock/menu_highlight.png", "x": -19, "y": -2 },
-            { "text": "Check for Updates...", "text_color_palette": "white" }
+            { "text": "Check for Updates...", "text_size": "small", "text_color_palette": "white" }
           ]
         },
         {
@@ -138,11 +138,11 @@
           "x": 45,
           "y": 194,
           "layers": [
-            { "text": "Shutdown", "text_color_palette": "blue" }
+            { "text": "Shutdown", "text_size": "small", "text_color_palette": "blue" }
           ],
           "selected_layers": [
             { "image_path": "assets/dock/menu_highlight.png", "x": -19, "y": -2 },
-            { "text": "Shutdown", "text_color_palette": "white" }
+            { "text": "Shutdown", "text_size": "small", "text_color_palette": "white" }
           ],
           "target": "function_shutdown",
           "button_map": {
