@@ -206,7 +206,7 @@
       ],
       "x": 77,
       "y": 4,
-      "target": "settings_display_submenu",
+      "target": "display_menu",
       "button_map": {
         "a": "select",
         "b": "goto pagerportal",
@@ -226,7 +226,7 @@
       ],
       "x": 131,
       "y": 4,
-      "target": "settings_ringtone_submenu",
+      "target": "sound_menu",
       "button_map": {
         "a": "select",
         "b": "goto pagerportal",
@@ -246,7 +246,7 @@
       ],
       "x": 179,
       "y": 4,
-      "target": "settings_network_submenu",
+      "target": "network_menu",
       "button_map": {
         "a": "select",
         "b": "goto pagerportal",
