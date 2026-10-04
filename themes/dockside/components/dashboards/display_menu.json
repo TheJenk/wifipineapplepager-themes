@@ -31,7 +31,7 @@
             { "image_path": "assets/dock/menu_highlight_drop.png", "x": -36, "y": -2 },
             { "text": "Brightness", "text_color_palette": "white" }
           ],
-          "target": "option_dialog_narrow",
+          "target": "option_dialog_quick",
           "button_map": {
             "a": "select",
             "b": "back",

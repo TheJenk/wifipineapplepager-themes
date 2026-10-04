@@ -287,7 +287,7 @@
       ],
       "x": 311,
       "y": 5,
-      "target": "option_dialog_narrow",
+      "target": "option_dialog_quick",
       "variable": "$_BRIGHTNESS",
       "button_map": {
         "a": "select",
@@ -308,7 +308,7 @@
       ],
       "x": 341,
       "y": 5,
-      "target": "option_dialog_narrow",
+      "target": "option_dialog_quick",
       "variable": "$_VOLUME",
       "button_map": {
         "a": "select",
