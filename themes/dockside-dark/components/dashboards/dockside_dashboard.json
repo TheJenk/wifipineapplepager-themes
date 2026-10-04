@@ -253,6 +253,27 @@
         "up": "noop",
         "down": "goto pagerportal",
         "left": "goto menusound",
+        "right": "goto qs_vibrate"
+      }
+    },
+    {
+      "id": "qs_vibrate",
+      "layers": [
+        { "image_path": "assets/dock/ghost.png", "x": 0, "y": 0 }
+      ],
+      "selected_layers": [
+        { "image_path": "assets/ui/sel_box.png", "x": -6, "y": -3 }
+      ],
+      "x": 251,
+      "y": 5,
+      "target": "inline_toggle",
+      "variable": "$_VIBRATE",
+      "button_map": {
+        "a": "select",
+        "b": "goto pagerportal",
+        "up": "noop",
+        "down": "goto pagerportal",
+        "left": "goto menunetwork",
         "right": "goto qs_brightness"
       }
     },
@@ -273,7 +294,28 @@
         "b": "goto pagerportal",
         "up": "noop",
         "down": "goto pagerportal",
-        "left": "goto menunetwork",
+        "left": "goto qs_vibrate",
+        "right": "goto qs_volume"
+      }
+    },
+    {
+      "id": "qs_volume",
+      "layers": [
+        { "image_path": "assets/dock/ghost.png", "x": 0, "y": 0 }
+      ],
+      "selected_layers": [
+        { "image_path": "assets/ui/sel_box.png", "x": -6, "y": -3 }
+      ],
+      "x": 317,
+      "y": 5,
+      "target": "option_dialog_narrow",
+      "variable": "$_VOLUME",
+      "button_map": {
+        "a": "select",
+        "b": "goto pagerportal",
+        "up": "noop",
+        "down": "goto pagerportal",
+        "left": "goto qs_brightness",
         "right": "noop"
       }
     }
