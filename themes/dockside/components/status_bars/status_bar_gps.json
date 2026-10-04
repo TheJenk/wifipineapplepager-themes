@@ -85,10 +85,10 @@
       "y": 5,
       "layers": {
         "on": [
-          { "image_path": "assets/statusbar/vibrate.png", "x": 0, "y": 0 }
+          { "image_path": "assets/statusbar/vibrate_on.png", "x": 1, "y": 2 }
         ],
         "off": [
-          { "image_path": "assets/statusbar/vibrate.png", "x": 0, "y": 0, "recolor_palette": "gray" }
+          { "image_path": "assets/statusbar/vibrate_off.png", "x": 1, "y": 1 }
         ]
       }
     },

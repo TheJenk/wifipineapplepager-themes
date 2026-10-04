@@ -10,7 +10,7 @@
   },
   "status_bar_items": {
     "Time": {
-      "x": 400,
+      "x": 410,
       "y": 7,
       "layers": {
         "default": []
@@ -18,7 +18,7 @@
       "recolor_palette": "blue"
     },
     "Battery": {
-      "x": 346,
+      "x": 365,
       "y": 7,
       "layers": {
         "discharging": [
@@ -42,7 +42,7 @@
       }
     },
     "Volume": {
-      "x": 317,
+      "x": 341,
       "y": 5,
       "layers": {
         "mute": [
@@ -60,7 +60,7 @@
       }
     },
     "Brightness": {
-      "x": 286,
+      "x": 311,
       "y": 5,
       "layers": {
         "15": [
@@ -81,14 +81,14 @@
       }
     },
     "Vibrate": {
-      "x": 251,
+      "x": 281,
       "y": 5,
       "layers": {
         "on": [
-          { "image_path": "assets/statusbar/vibrate.png", "x": 0, "y": 0 }
+          { "image_path": "assets/statusbar/vibrate_on.png", "x": 1, "y": 2 }
         ],
         "off": [
-          { "image_path": "assets/statusbar/vibrate.png", "x": 0, "y": 0, "recolor_palette": "gray" }
+          { "image_path": "assets/statusbar/vibrate_off.png", "x": 1, "y": 1 }
         ]
       }
     },
@@ -119,6 +119,21 @@
         ],
         "off": [
           { "image_path": "assets/statusbar/ghz_off.png", "x": 0, "y": 0 }
+        ]
+      }
+    },
+    "WifiClient": {
+      "x": 251,
+      "y": 4,
+      "layers": {
+        "disabled": [
+          { "image_path": "assets/statusbar/wifi_off.png", "x": 1, "y": 0 }
+        ],
+        "connected": [
+          { "image_path": "assets/statusbar/wifi_on_connected.png", "x": 1, "y": 2 }
+        ],
+        "disconnected": [
+          { "image_path": "assets/statusbar/wifi_on_disconnected.png", "x": 1, "y": 2 }
         ]
       }
     }
